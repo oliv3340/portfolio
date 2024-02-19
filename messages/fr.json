@@ -20,6 +20,13 @@
     "Hero": {
         "text": "ingenieur devops freelance"
     },
+    "About": {
+        "title": "Salut, je suis Olivier.",
+        "subtitle": "Freelance, DevOps et amoureux des Beagle, en mission pour vous aider à surmonter vos challenges",
+        "p1": "Né en 91, près de Bordeaux (FR), j'ai toujours été attiré par les nouvelles technologies, grâce aux jeux vidéos notamment.",
+        "p2": "C'est donc tout naturellement que je me suis tourné vers l'informatique après le lycée. J'ai beaucoup appris durant mes études à la fac puis en école privée. J'ai commencé mon voyage dans le monde professionnel durant mes trois dernières années de cursus où j'ai travaillé comme administrateur système en contrat pro. Une fois dimplômé, j'ai commencé mon aventure en tant que DevOps en travaillant pour de grands noms en France (Bouygues Telecom, Cdiscount, Mirakl).",
+        "p3": "Aujourd'hui, j'aide les entreprises à résoudre leurs problèmes, surmonter leurs challenges, à améliorer leurs infrastructures et méthodes de travail."
+    },
     "Footer": {
         "title": "Gardons contact"
     }

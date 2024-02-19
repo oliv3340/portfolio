@@ -26,6 +26,8 @@ const config: Config = {
     extend: {
       width: {
         "hrWidth": "600px",
+        "1200": "1200px",
+        "550": "550px",
       },
       height: {
         "hrHeight": "1px",
