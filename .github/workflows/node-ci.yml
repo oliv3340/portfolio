@@ -1,0 +1,9 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci:
+    uses: oliv3340/reusable-workflows/.github/workflows/node-ci.yml@v1.1.0
