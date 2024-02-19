@@ -17,6 +17,9 @@
             "link": "#contact"
         }
     },
+    "Hero": {
+        "text": "freelance devops engineer"
+    },
     "Footer": {
         "title": "Let's keep contact"
     }
