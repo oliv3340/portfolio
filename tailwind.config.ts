@@ -29,6 +29,8 @@ const config: Config = {
       },
       height: {
         "hrHeight": "1px",
+        "620": "620px",
+        "820": "820px",
       },
     },
   },
