@@ -24,6 +24,12 @@ const config: Config = {
       "gray": "#808080",
     },
     extend: {
+      width: {
+        "hrWidth": "600px",
+      },
+      height: {
+        "hrHeight": "1px",
+      },
     },
   },
   plugins: [],
