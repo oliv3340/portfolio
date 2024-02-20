@@ -4,6 +4,7 @@ import ToolsSection from "./ToolsSection";
 
 export default function SkillSection() {
     const t = useTranslations("Skills");
+    const missions = useTranslations("Missions");
     const items = ['bouygues', 'altrnativ', 'cdiscount', 'mirakl'] as const;
 
     return (
@@ -19,7 +20,6 @@ export default function SkillSection() {
                     <div className="flex flex-col justify-center items-center">
                         <div className="flex flex-wrap justify-center gap-8 mx-5">
                             {items.map((item, index) => {
-                                const missions = useTranslations("Missions");
                                 return (
                                     <>
                                         <div className="max-w-sm rounded min-h-[250px] bg-white shadow-lg hover:shadow-2xl border-2 border-white hover:border-brown-light" key={index}>
