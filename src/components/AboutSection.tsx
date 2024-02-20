@@ -6,7 +6,7 @@ export default function HeroSection() {
     const t = useTranslations("About")
     return (
         <>
-            <div className="min-w-screen bg-white py-20 font-body" id="about">
+            <div className="min-w-screen bg-creme py-20 font-body" id="about">
                 <div className="container mx-auto md:w-1200">
                     <div className="flex flex-col justify-center items-center">
                         <div className="max-w-1200">
