@@ -1,0 +1,20 @@
+{
+    "Navbar": {
+        "about": {
+            "name": "A propos",
+            "link": "#about"
+        },
+        "skills": {
+            "name": "Compétences",
+            "link": "#skills"
+        },
+        "projects": {
+            "name": "Projets",
+            "link": "#projects"
+        },
+        "contact": {
+            "name": "Contact",
+            "link": "#contact"
+        }
+    }
+}

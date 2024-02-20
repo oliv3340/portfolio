@@ -9,6 +9,7 @@
   --foreground-rgb: #f7f4f2;
   --background-start-rgb: #f7f4f2;
   --background-end-rgb: #f7f4f2;
+  white-space: pre-line;
 }
 
 body {
