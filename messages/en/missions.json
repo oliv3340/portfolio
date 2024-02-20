@@ -1,0 +1,28 @@
+{
+    "Missions": {
+        "bouygues": {
+            "title": "DevOps BigData ",
+            "location": "Bouygues Telecom",
+            "dateShort": "2019-2021",
+            "description": "Implementing new infrastructures to collect aggregate and index telecommunications data and serve the data on Hadoop cluster for Data Science purpose"
+        },
+        "altrnativ": {
+            "title": "DevOps BigData ",
+            "location": "Altrnativ",
+            "dateShort": "2021-2021",
+            "description": "Creation of a new infrastructure from scratch to collect aggregate and index telecommunications data and serve the data on Hadoop cluster for Data Science purpose"
+        },
+        "cdiscount": {
+            "title": "SRE/DevOps ",
+            "location": "Cdiscount",
+            "dateShort": "2021-2022",
+            "description": "Development and management of multi datacenter and multi cluster Kubernetes using Infrastructure as Code, and integration of a replicated storage solution for K8s : Rook-Ceph"
+        },
+        "mirakl": {
+            "title": "SRE/DevOps ",
+            "location": "Mirakl",
+            "dateShort": "2022-now",
+            "description": "Multi cloud infrastructure management (GCP, AWS, Azure) with Terraform, continuous improvement of CI/CD pipelines and internal tools development"
+        }
+    }
+}
