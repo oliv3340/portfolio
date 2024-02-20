@@ -29,12 +29,12 @@ export default function SkillSection() {
                                             <div className="px-6 py-4">
                                                 <div className="flex h-full lg:mx-0">
                                                     <div className="flex items-center align-center pb-2">
-                                                        <div className="font-bold text-xl">{missions(`${item}.title`)}</div>
-                                                        <div className="mx-1 italic">- {missions(`${item}.location`)}</div>
+                                                        <div className="title text-xl">{missions(`${item}.title`)}</div>
+                                                        <div className="mx-1 italic">- {missions(`${item}.dateShort`)}</div>
                                                     </div>
 
                                                 </div>
-                                                <span className="inline-block bg-gray-200 rounded-full py-1 text-sm text-gray-700 mb-2">{missions(`${item}.dateShort`)}</span>
+                                                <span className="inline-block bg-gray-200 rounded-full py-1 text-sm text-gray-700 mb-2 uppercase tracking-widest">{missions(`${item}.location`)}</span>
                                                 <p className="text-gray-700 text-base line-clamp-4">
                                                     {missions(`${item}.description`)}
                                                 </p>
