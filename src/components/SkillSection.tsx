@@ -1,10 +1,13 @@
 import React from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import ToolsSection from "./ToolsSection";
+import Link from "next/link";
+import { locales } from "@/navigation";
 
 export default function SkillSection() {
     const t = useTranslations("Skills");
     const missions = useTranslations("Missions");
+    const currentLocale = useLocale()
     const items = ['bouygues', 'altrnativ', 'cdiscount', 'mirakl'] as const;
 
     return (
@@ -22,7 +25,7 @@ export default function SkillSection() {
                             {items.map((item, index) => {
                                 return (
                                     <>
-                                        <div className="max-w-sm rounded min-h-[250px] bg-white shadow-lg hover:shadow-2xl border-2 border-white hover:border-brown-light" key={index}>
+                                        <div className="max-w-sm rounded min-h-[250px] bg-creme shadow-lg hover:shadow-2xl border-2 border-creme hover:border-brown-light" key={index}>
                                             <div className="px-6 py-4">
                                                 <div className="flex h-full lg:mx-0">
                                                     <div className="flex items-center align-center pb-2">
@@ -38,7 +41,11 @@ export default function SkillSection() {
                                             </div>
                                             <div className="px-6 pt-2 pb-4">
                                                 <div className="flex justify-center items-center">
-                                                    <span className="inline-block bg-brown-light hover:bg-brown-hover rounded px-4 py-2 text-sm font-semibold text-black mr-2 mb-2">{t(`readmore`)}</span>
+                                                    <Link href={currentLocale + '/missions/' + item}>
+                                                        <span className="inline-block bg-brown-light hover:bg-brown-hover rounded px-4 py-2 text-sm font-semibold text-black mr-2 mb-2">
+                                                            {t(`readmore`)}
+                                                        </span>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
