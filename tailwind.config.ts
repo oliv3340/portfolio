@@ -18,7 +18,7 @@ const config: Config = {
       "brown-hover": "#e9be91",
       "brown-light": "#d7af84",
       "creme": "#ede6d9",
-      "oliv": "#849f91",
+      "oliv": "#919f84",
       "hover": "#bcb8b8",
       "white": "#f7f4f2",
       "gray": "#808080",
