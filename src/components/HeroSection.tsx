@@ -10,7 +10,7 @@ export default function HeroSection() {
                     <video
                         autoPlay={true} playsInline={true} muted={true}
                         className="object-cover brightness-75 h-620 md:h-820"
-                        src="videos/video.mp4" width="100%" height="100%"
+                        src="/videos/video.mp4" width="100%" height="100%"
                     />
                 </div>
                 <div className="flex flex-col justify-center items-center h-full align-middle z-40">
