@@ -27,6 +27,79 @@
         "p2": "So naturally, I start learning computing science after being graduate from hight school. I've learned a lot during that time at college and private schools. I've started my journey during that time, working half time as a system administrator during my last three studie years. And with my degree in hand, I've switch to the DevOps phylosophie, and worked for big french companies (Bouygues Telecom, Cdiscount, Mirakl).",
         "p3": "Today, it as a freelance that I help companies to solve real problems and challenges, and to improve their infrastructures and methodology."
     },
+    "Skills": {
+        "title": "Skills and jobs",
+        "description": {
+            "p1": "Since beginning my journey as a freelance DevOps in 2018, I’ve work remotly for agencies and collaborated with talented people to create complex infrastructures for both business and consumer use.",
+            "p2": "I've help companies to improve their infrastructure using the Infrastructure As Code (IaC) model with Terraform and Ansible, and design CI/CDs pipeline on Github or GitLab to orchetrate everything. The main idea is to serve infrastructures and plateforms as a service.",
+            "p3": "I also have some coding skills with Python & Golang to help me to reach my goal. And some skills for fun like React and Javascript."
+        },
+        "buttonLabel": "Get my resume",
+        "resumepath": "/files/en/RESUME-GRACIANNETTE.pdf",
+        "experience": {
+            "readmore": "Read more",
+            "bouygues": {
+                "title": "DevOps BigData ",
+                "location": "Bouygues Telecom",
+                "logo": "https://www.bouyguestelecom.fr/static/wbm/assets/hub/img/logo-bouygues-telecom.svg",
+                "date": "2019-08 to 2021-03",
+                "dateShort": "2019-2021",
+                "type": "work",
+                "description": "Implementing new infrastructures to collect aggregate and index telecommunications data and serve the data on Hadoop cluster for Data Science purpose",
+                "task": {
+                    "0": "Design a new Kubernetes cluster and deploy it on premise with Ansible.",
+                    "1": "Management and deployment Elasticsearch clusters, and improve Infrastructure as Code using Ansible",
+                    "2": "Design and deploy an HortonWorks cluster",
+                    "3": "Improve monitoring stack (Prometheus, Alertmanager and Grafana) using Ansible"
+                }
+            },
+            "altrnativ": {
+                "title": "DevOps BigData ",
+                "location": "Altrnativ",
+                "logo": "https://altrnativ.com/wp-content/uploads/2021/09/altrnativ-logo-fond-blanc-copie-2.png",
+                "date": "2021-03 to 2021-06",
+                "dateShort": "2021-2021",
+                "type": "work",
+                "description": "Creation of a new infrastructure from scratch to collect aggregate and index telecommunications data and serve the data on Hadoop cluster for Data Science purpose",
+                "task": {
+                    "0": "Design a new Kubernetes cluster and deploy it on premise with Ansible.",
+                    "1": "Design and deploy Elasticsearch clusters using Ansible",
+                    "2": "Design and deploy an HortonWorks cluster using Ansible",
+                    "3": "Deploy monitoring stack inside K8s with Prometheus, Alertmanager and Grafana using Helm charts"
+                }
+            },
+            "cdiscount": {
+                "title": "SRE/DevOps ",
+                "location": "Cdiscount",
+                "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1p2aimeyx6kdr.cloudfront.net%2Fwp-content%2Fuploads%2F2019%2F04%2F11090900%2Fcdiscount.jpg&f=1&nofb=1",
+                "date": "2021-07 to 2022-02",
+                "dateShort": "2021-2022",
+                "type": "work",
+                "description": "Development and management of multi datacenter and multi cluster Kubernetes using Infrastructure as Code, and integration of a replicated storage solution for K8s : Rook-Ceph",
+                "task": {
+                    "1": "Development and management of Kubernetes clusters using Infra as Code (Terraform and Ansible)",
+                    "2": "Deployment of a new storage solution : rook-ceph, to be able to use stateful feature in Kubernetes",
+                    "3": "Ansible and Terraform  script development"
+                }
+            },
+            "mirakl": {
+                "title": "SRE/DevOps ",
+                "location": "Mirakl",
+                "logo": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mirakl.fr%2Fdata%2Fuploads%2Fpage%2F27687_jobs%2FTravailler-chez-Mirakl.png&f=1&nofb=1",
+                "date": "2022-02 to now",
+                "dateShort": "2022-now",
+                "type": "work",
+                "description": "Multi cloud infrastructure management (GCP, AWS, Azure) with Terraform, continuous improvement of CI/CD pipelines and internal tools development",
+                "task": {
+                    "0": "Continuous improvement of our cloud infrastructure (GCP, AWS, Azure with Terraform through CI/CD pipelines",
+                    "1": "CD tools integration (ArgoCD)",
+                    "2": "Terraform module development",
+                    "3": "Internal APIs development (Go)",
+                    "4": "Helm library & charts development"
+                }
+            }
+        }
+    },
     "Footer": {
         "title": "Let's keep contact"
     }
