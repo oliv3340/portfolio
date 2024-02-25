@@ -1,33 +1,33 @@
 {
     "Missions": {
-        "tasktitle": "Quelques taches réalisées...",
+        "taskstitle": "Quelques taches réalisées...",
         "bouygues": {
             "title": "DevOps BigData ",
             "location": "Bouygues Telecom",
             "dateShort": "2019-2021",
             "description": "Dans cette première missions, j'ai intégré une équipe de 3 DevOps et 3 developper afin de renforcer le besoin de Bouygues sur l'implémentation d’une nouvelle plateforme.\n\nLe besoin métier était de collecter, agréger et indexer des données de télécommunication (log d'antenne, router, etc.) et les servir dans un cluster Hadoop pour des besoins BI. En finalité le client voulait construire sa plateform afin de développer à terme des intelligences artificielles pouvant detecter des pannes sur le réseau Bouygues par exemple.",
-            "task": "Design d’un cluster Kubernetes et déploiement “on premise” via Ansible\nGestion et déploiement de clusters Elasticsearch via Ansible\nDesign et déploiement d’un cluster HortonWorks\nAmélioration continue du monitoring (Prometheus, Alertmanager and Grafana) via Ansible"
+            "tasks": "Developpement de recette Ansible : Pour des contraintes de sécurité le client ne souhaitait pas faire sa migration vers le cloud et avait à coeur de garder son infrastructure sur des datacenters français. C'est pourquoi, l'ensemble de l'infrastructure a été développé en utilisant des recette Ansible afin de provisionner les cluster Kubernetes, Elasticsearch et Hadoop.\n\nAmélioration continue du monitoring (Prometheus, Alertmanager and Grafana)"
         },
         "altrnativ": {
             "title": "DevOps BigData ",
             "location": "Altrnativ",
             "dateShort": "2021-2021",
             "description": "Dans cette mission, le cahier des charges était de design et implémenter une nouvelle infrastructure pour collecter, agréger et indexer des données télécommunication et les servir dans un cluster Hadoop pour des besoins Data science.\n\nLe client avait déjà eu vent de la réalisation apporté au sein du groupe Bouygues et souhaité répliquer la même infrastructure pour des besoins similaires.",
-            "task": "Design d’un cluster Kubernetes et déploiement “on premise” via Ansible\nGestion et déploiement de clusters Elasticsearch via Ansible\nDesign et déploiement d’un cluster HortonWorks\nAmélioration continue du monitoring (Prometheus, Alertmanager and Grafana) via Ansible"
+            "tasks": "Developpement de recette Ansible : Pour des contraintes de sécurité le client ne souhaitait pas faire sa migration vers le cloud et avait à coeur de garder son infrastructure sur des datacenters français. C'est pourquoi, l'ensemble de l'infrastructure a été développé en utilisant des recette Ansible afin de provisionner les cluster Kubernetes, Elasticsearch et Hadoop.\n\n• Amélioration continue du monitoring (Prometheus, Alertmanager and Grafana)"
         },
         "cdiscount": {
             "title": "SRE/DevOps ",
             "location": "Cdiscount",
             "dateShort": "2021-2022",
             "description": "Cdiscount est le leader français de l'e-commerce B2C et de la logistique et un vertiable concurrent à Amazon sur le territoire français.\n\nIntégré au sein de l'équipe SRE (~ 8 personnes), j'ai eu la responsabilité de développer et manager la majeur partie de plateform Cdiscount, hébergée sur plusieurs datacenter.\n\nCdiscount navigue a contre courant, souhaitant conserver la gestion en interne, plutôt que de consommer son infrastructure sur un cloud provider en mode Plateform as a Service. C'est pourquoi cette mission très formatrice, m'a permis de développer mes compétences sur l'infrastructure as code via Ansible et Terraform.\n\nUne autre partie de cette mission était de modernisé la solution de stockage distribué pour Kubernetes en utilisant Rook-Ceph",
-            "task": "Développement et management des cluster Kubernetes via l’infra as code (Ansible & Terraform)\nIntégration de la solution de stockage répliquée rook-ceph pour le stateful dans Kubernetes\nDéveloppement  de script d’automatisation (Ansible & Terraform)  et de pipeline CI/CD"
+            "tasks": "Développement et management des cluster Kubernetes via l’infra as code (Ansible & Terraform)\nIntégration de la solution de stockage répliquée rook-ceph pour le stateful dans Kubernetes\nDéveloppement  de script d’automatisation (Ansible & Terraform)  et de pipeline CI/CD"
         },
         "mirakl": {
             "title": "SRE/DevOps ",
             "location": "Mirakl",
             "dateShort": "2022-now",
             "description": "Mirakl, véritable licorne française et leader du e-commerce français B2B, à vu ses effectifs grossir et exploser ces dernières annes.\n\nC'est pour répondre à ce besoin que j'ai rejoint, pour ma première mission en freelance, l'équipe SRE d'une quinzaine de personnes, afin de les aider dans la gestion de l'infrastructure multi cloud (GCP, AWS & Azure).\n\nTrès proche de la culture DevOps, Mirakl a cependant accumulé de la dette technique à cause de sa croissance exponentielle. L'un des premiers sujets de cette mission est de moderniser toute la partie infrastructure as code : Terraform, les pipelines CD en intégrant ArgoCD, mais aussi moderniser la partie base de données en l'intégrant dans Kubernetes via Cloudnative PG.",
-            "task": "Amélioration continue des infrastructures cloud (GCP, AWS & Azure) avec Terraform via la CI/CD\nIntégration d’outils de CD (ArgoCD)\nDéveloppement de module terraform internes\nDéveloppement d’API internes (Go)\nDéveloppement de library Helm et de charts"
+            "tasks": "Amélioration continue des infrastructures cloud (GCP, AWS & Azure) avec Terraform via la CI/CD\nIntégration d’outils de CD (ArgoCD)\nDéveloppement de module terraform internes\nDéveloppement d’API internes (Go)\nDéveloppement de library Helm et de charts"
         }
     }
 }

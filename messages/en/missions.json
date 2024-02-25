@@ -6,28 +6,28 @@
             "location": "Bouygues Telecom",
             "dateShort": "2019-2021",
             "description": "In this initial assignment, I joined a team of 3 DevOps and 3 developers to strengthen Bouygues, a french telecommunication company, requirement for implementing a new platform.\n\nThe business requirement was to collect, aggregate, and index telecommunication data (antenna logs, routers, etc.) and serve them in a Hadoop cluster for BI purposes. Ultimately, the client aimed to build a platform to develop artificial intelligence capable of detecting network issues, such as outages on the Bouygues network.",
-            "task": "Design a new Kubernetes cluster and deploy it on premise with Ansible.\nManagement and deployment Elasticsearch clusters, and improve Infrastructure as Code using Ansible\nDesign and deploy an HortonWorks cluster\nImprove monitoring stack (Prometheus, Alertmanager and Grafana) using Ansible"
+            "tasks": "Design a new Kubernetes cluster and deploy it on premise with Ansible.\nManagement and deployment Elasticsearch clusters, and improve Infrastructure as Code using Ansible\nDesign and deploy an HortonWorks cluster\nImprove monitoring stack (Prometheus, Alertmanager and Grafana) using Ansible"
         },
         "altrnativ": {
             "title": "DevOps BigData ",
             "location": "Altrnativ",
             "dateShort": "2021-2021",
             "description": "In this assignment, the specifications were to design and implement a new infrastructure for collecting, aggregating, and indexing telecommunication data, serving it in a Hadoop cluster for Data Science purposes.\n\nThe client, having heard about the successful implementation within the Bouygues group, wished to replicate a similar infrastructure for similar needs.",
-            "task": "Design a new Kubernetes cluster and deploy it on premise with Ansible.\nDesign and deploy Elasticsearch clusters using Ansible\nDesign and deploy an HortonWorks cluster using Ansible\nDeploy monitoring stack inside K8s with Prometheus, Alertmanager and Grafana using Helm charts"
+            "tasks": "Design a new Kubernetes cluster and deploy it on premise with Ansible.\nDesign and deploy Elasticsearch clusters using Ansible\nDesign and deploy an HortonWorks cluster using Ansible\nDeploy monitoring stack inside K8s with Prometheus, Alertmanager and Grafana using Helm charts"
         },
         "cdiscount": {
             "title": "SRE/DevOps ",
             "location": "Cdiscount",
             "dateShort": "2021-2022",
             "description": "At Cdiscount, the leading French B2C e-commerce and logistics company, and a true competitor to Amazon in the French market, I was part of the SRE team (approximately 8 members). My role involved developing and managing a significant portion of the Cdiscount platform, hosted across multiple data centers.\n\nCdiscount takes a unique approach, opting to retain in-house management rather than utilizing a cloud provider in Platform as a Service mode. This insightful mission allowed me to enhance my skills in infrastructure as code using Ansible and Terraform.\n\nAnother aspect of this mission was to modernize the distributed storage solution for Kubernetes by implementing Rook-Ceph.",
-            "task": "Development and management of Kubernetes clusters using Infra as Code (Terraform and Ansible)\nDeployment of a new storage solution : rook-ceph, to be able to use stateful feature in Kubernetes\nAnsible and Terraform  script development"
+            "tasks": "Development and management of Kubernetes clusters using Infra as Code (Terraform and Ansible)\nDeployment of a new storage solution : rook-ceph, to be able to use stateful feature in Kubernetes\nAnsible and Terraform  script development"
         },
         "mirakl": {
             "title": "SRE/DevOps ",
             "location": "Mirakl",
             "dateShort": "2022-now",
             "description": "“At Mirakl, a true French unicorn and a leader in B2B e-commerce, the workforce has seen substantial growth and expansion in recent years.\n\nFor my first freelance mission, I joined the 15-member SRE team to assist in managing the multi-cloud infrastructure (GCP, AWS & Azure) to meet the increasing demands. Despite being closely aligned with DevOps culture, Mirakl faced technical debt due to its exponential growth.\n\nOne of the primary focuses of this mission is to modernize the entire infrastructure-as-code, incorporating Terraform, CD pipelines with ArgoCD, and updating the database infrastructure by integrating it into Kubernetes through Cloudnative PG.”",
-            "task": "Continuous improvement of our cloud infrastructure (GCP, AWS, Azure with Terraform through CI/CD pipelines\nCD tools integration (ArgoCD)\nTerraform module development\nInternal APIs development (Go)\nHelm library & charts development"
+            "tasks": "Continuous improvement of our cloud infrastructure (GCP, AWS, Azure with Terraform through CI/CD pipelines\nCD tools integration (ArgoCD)\nTerraform module development\nInternal APIs development (Go)\nHelm library & charts development"
         }
     }
 }
