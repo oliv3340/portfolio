@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from "next-intl";
 import ToolsSection from "./ToolsSection";
 import Link from "next/link";
 import { locales } from "@/navigation";
+import Image from "next/image";
 
 export default function SkillSection() {
     const t = useTranslations("Skills");
@@ -19,36 +20,21 @@ export default function SkillSection() {
                         <div className="">{t('description')}</div>
                     </div>
                 </div>
-                <div className="mx-auto max-w-[900px] py-12">
+                <div className="mx-auto max-w-[1200px] pb-12">
                     <div className="flex flex-col justify-center items-center">
-                        <div className="flex flex-wrap justify-center gap-8 mx-5">
+                        <div className="text-2xl title my-4">{t('subtitle')}</div>
+                        <div className="flex flex-wrap justify-center gap-6 md:gap-8 mx-5">
                             {items.map((item, index) => {
                                 return (
                                     <>
-                                        <div className="max-w-sm rounded min-h-[250px] bg-creme shadow-lg hover:shadow-2xl border-2 border-creme hover:border-brown-light" key={index}>
-                                            <div className="px-6 py-4">
-                                                <div className="flex h-full lg:mx-0">
-                                                    <div className="flex items-center align-center pb-2">
-                                                        <div className="title text-xl">{missions(`${item}.title`)}</div>
-                                                        <div className="mx-1 italic">- {missions(`${item}.dateShort`)}</div>
-                                                    </div>
-
+                                        <div className="w-[250px] h-[200px] rounded my-6 md:my-12 shadow-lg hover:shadow-2xl">
+                                            <Link href={currentLocale + '/missions/' + item}>
+                                                <Image className="object-cover w-full h-full rounded-t" src={"/images/companies/" + item + ".jpg"} width={200} height={200} alt="" />
+                                                <div className="flex items-center justify-center align-center p-[10px] bg-white rounded-b border-t-[1px] border-[#888787]">
+                                                    <div className="text-lg body uppercase tracking-widest">{missions(`${item}.title`)}</div>
                                                 </div>
-                                                <span className="inline-block bg-gray-200 rounded-full py-1 text-sm text-gray-700 mb-2 uppercase tracking-widest">{missions(`${item}.location`)}</span>
-                                                <p className="text-gray-700 text-base line-clamp-4">
-                                                    {missions(`${item}.description`)}
-                                                </p>
-                                            </div>
-                                            <div className="px-6 pt-2 pb-4">
-                                                <div className="flex justify-center items-center">
-                                                    <Link href={currentLocale + '/missions/' + item}>
-                                                        <span className="inline-block bg-brown-light hover:bg-brown-hover rounded px-4 py-2 text-sm font-semibold text-black mr-2 mb-2">
-                                                            {t(`readmore`)}
-                                                        </span>
-                                                    </Link>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            </Link>
+                                        </div >
                                     </>
                                 )
                             })}
@@ -58,7 +44,7 @@ export default function SkillSection() {
 
                 <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
                 <ToolsSection />
-            </div>
+            </div >
         </>
     )
 }
