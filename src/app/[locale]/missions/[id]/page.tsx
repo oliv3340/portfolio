@@ -31,11 +31,11 @@ export default function Page({ params }: any) {
                             </div>
                         </div>
                         <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
-                        <div className="flex flex-col justify-center items-center p-5">
-                            <div className="mx-auto">
-                                <div className="title text-3xl my-3">{t(`tasktitle`)}</div>
+                        <div className="flex flex-col justify-center items-center pb-8">
+                            <div className="mx-auto max-w-[900px]">
+                                <div className="flex title text-3xl mb-8 justify-center items-center">{t(`taskstitle`)}</div>
                                 <div className="font-body ml-1">
-                                    <p>{t(`${id}.task`)}</p>
+                                    <p>{t(`${id}.tasks`)}</p>
                                 </div>
                             </div>
                         </div>
