@@ -1,14 +1,34 @@
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
-import ToolsSection from "./ToolsSection";
 import Link from "next/link";
 import Image from "next/image";
+import DynamicIcon from "./DynamicIcon";
 
 export default function SkillSection() {
     const t = useTranslations("Skills");
     const missions = useTranslations("Missions");
     const currentLocale = useLocale()
     const items = ['bouygues', 'altrnativ', 'cdiscount', 'mirakl'] as const;
+    const technoTools = [
+        "BiLogoGoogleCloud",
+        "SiAmazonaws",
+        "VscAzure",
+        "SiTerraform",
+        "SiArgo",
+        "SiDatadog",
+        "SiPrometheus",
+        "SiHelm",
+        "SiKubernetes",
+        "SiFirebase",
+        "DiPostgresql",
+        "SiGithub",
+        "SiGit",
+        "SiGo",
+        "SiPython",
+        "SiReact",
+        "SiNextdotjs",
+        "SiTailwindcss"
+    ]
 
     return (
         <>
@@ -42,7 +62,7 @@ export default function SkillSection() {
                 </div>
 
                 <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
-                <ToolsSection />
+                <DynamicIcon components={technoTools} color="#3e413f" size="40" />
             </div >
         </>
     )
