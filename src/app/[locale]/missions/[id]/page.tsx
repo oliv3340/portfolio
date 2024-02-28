@@ -2,16 +2,26 @@ import NavBar from "@/components/navigation/NavBar";
 import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
+import HrSeparator from "@/components/HrSeparator";
+import DynamicIcon from "@/components/DynamicIcon";
+
 
 export default function Page({ params }: any) {
     const { id } = params
     const t = useTranslations('Missions')
 
+    const techTools = {
+        "bouygues": ["SiTerraform", "SiAnsible", "SiPrometheus", "SiGrafana", "SiKubernetes", "SiCeph", "DiPostgresql", "SiGitlab", "SiJira", "SiMattermost"],
+        "altrnativ": ["SiTerraform", "SiAnsible", "SiPrometheus", "SiGrafana", "SiKubernetes", "SiCeph", "DiPostgresql", "SiGitlab", "SiJira", "SiMattermost"],
+        "cdiscount": ["SiTerraform", "SiAnsible", "SiPrometheus", "SiGrafana", "SiKubernetes", "SiCeph", "DiPostgresql", "SiBitbucket", "SiJira", "SiMicrosoftteams"],
+        "mirakl": ["BiLogoGoogleCloud", "SiAmazonaws", "VscAzure", "SiTerraform", "SiArgo", "SiDatadog", "SiHelm", "SiKubernetes", "SiFirebase", "SiPostgresql", "SiGithub", "SiGo", "SiPython", "SiJira", "SiSlack"]
+    }
+
     return (
         <>
             <main className="min-w-screen min-h-screen bg-creme text-justify">
                 <NavBar />
-                <div className="min-w-screen py-20 font-body" id="about">
+                <div className="md:min-w-screen py-20 px-4 font-body" id="about">
                     <div className="container mx-auto md:w-1200 border-4 border-[#4d4d4d] rounded">
                         <div className="flex flex-col justify-center items-center p-5">
                             <div className="max-w-1200">
@@ -30,18 +40,37 @@ export default function Page({ params }: any) {
                                 </div>
                             </div>
                         </div>
-                        <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
+                        <HrSeparator />
                         <div className="flex flex-col justify-center items-center pb-8">
-                            <div className="mx-auto max-w-[900px]">
+                            <div className="mx-auto max-w-60 md:max-w-[900px]">
                                 <div className="flex title text-3xl mb-8 justify-center items-center">{t(`taskstitle`)}</div>
-                                <div className="font-body ml-1">
-                                    <p>{t(`${id}.tasks`)}</p>
+                                <div className="font-body ml-1 flex flex-wrap mx-2">
+                                    <ul className="mx-auto">
+                                        {t(`${id}.tasks`).split('\n').map((item, index) => (
+                                            <>
+                                                <li className="list-disc my-2" key={index}>
+                                                    {item}
+                                                </li>
+                                            </>
+                                        ))}
+                                    </ul>
                                 </div>
                             </div>
                         </div>
+                        <HrSeparator />
+                        {Object.entries(techTools).map(([key, value]) => (
+                            id == key
+                                ?
+                                <>
+                                    <DynamicIcon components={value} size="40" color="#3e413f">
+                                        <div className="flex title text-3xl mb-8 justify-center items-center">{t(`toolstitle`)}</div>
+                                    </DynamicIcon>
+                                </>
+                                : <></>
+                        ))}
                     </div>
-                </div>
-            </main>
+                </div >
+            </main >
         </>
     )
 }
