@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { GrLinkedin, GrTwitter } from "react-icons/gr";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
+import HrSeparator from "./HrSeparator";
 
 const MENU_ITEMS = [
   { text: "LinkedIn", href: "https://www.linkedin.com/in/olivier-graciannette-3358b89b/", icon: <GrLinkedin /> },
@@ -22,7 +23,7 @@ export default function Footer() {
           <div className="title text-3xl md:text-5xl">
             {t('title')}
           </div>
-          <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
+          <HrSeparator />
           <div className="container">
             <div className="flex h-full w-full justify-center items-center gap-x-4 md:gap-x-6">
               {MENU_ITEMS.map((menu) => (

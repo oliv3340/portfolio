@@ -3,6 +3,7 @@ import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import Image from "next/image";
 import DynamicIcon from "./DynamicIcon";
+import HrSeparator from "./HrSeparator";
 
 export default function SkillSection() {
     const t = useTranslations("Skills");
@@ -61,7 +62,7 @@ export default function SkillSection() {
                     </div>
                 </div>
 
-                <hr className="w-80 md:w-hrWidth h-hrHeight bg-lightBlack mx-auto my-8 border-0 rounded" />
+                <HrSeparator />
                 <DynamicIcon components={technoTools} color="#3e413f" size="40" />
             </div >
         </>
