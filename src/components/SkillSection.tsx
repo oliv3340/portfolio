@@ -2,7 +2,6 @@ import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import ToolsSection from "./ToolsSection";
 import Link from "next/link";
-import { locales } from "@/navigation";
 import Image from "next/image";
 
 export default function SkillSection() {
@@ -27,7 +26,7 @@ export default function SkillSection() {
                             {items.map((item, index) => {
                                 return (
                                     <>
-                                        <div className="w-[250px] h-[200px] rounded my-6 md:my-12 shadow-lg hover:shadow-2xl">
+                                        <div key={index} className="w-[250px] h-[200px] rounded my-6 md:my-12 shadow-lg hover:shadow-2xl">
                                             <Link href={currentLocale + '/missions/' + item}>
                                                 <Image className="object-cover w-full h-full rounded-t" src={"/images/companies/" + item + ".jpg"} width={200} height={200} alt="" />
                                                 <div className="flex items-center justify-center align-center p-[10px] bg-white rounded-b border-t-[1px] border-[#888787]">
