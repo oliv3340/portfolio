@@ -24,7 +24,7 @@ export default function ProjectSection() {
             <div className="min-w-screen bg-creme py-20 font-body" id="projects">
                 <div className="container mx-auto md:w-1200 py-12">
                     <div className="flex flex-col justify-center items-center">
-                        <div className="title mx-auto text-3xl md:text-4xl mb-8">{t("title")}</div>
+                        <div className="title mx-auto px-5 text-3xl md:text-4xl mb-8">{t("title")}</div>
                         <div className="mx-auto max-w-[1200px]">
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex flex-wrap justify-center gap-6 md:gap-8 my-12">
