@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/oliv3340/portfolio/compare/v1.5.0...v1.5.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* responsive render project section title ([83061ab](https://github.com/oliv3340/portfolio/commit/83061abf0005789e4804e299c226db0b50ba92bf))
+
 ## [1.5.0](https://github.com/oliv3340/portfolio/compare/v1.4.0...v1.5.0) (2024-02-29)
 
 
