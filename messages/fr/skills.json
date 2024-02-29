@@ -1,8 +1,8 @@
 {
     "Skills": {
         "title": "Compétences et missions",
-        "description": "Depuis le début de mon aventure DevOps en 2018, j'ai travailé en remote pour des ESN et collaboré avec des personnes talentueuses pour concevoir des infrastructures à la fois pour les clients et le business.\n\nJ'ai aidé les entreprises à améliorer leurs infrastructures via l'Infrastructure As Code (IaC) en utilisant Terraform et Ansible, et des pipelines CI/CDs via Github ou GitLab pour ochestrer l'ensemble. L'idée principale est de permettre aux clients de consommer l'infrastructure comme un service.\n\nJ'ai aussi quelques compétences en développement notamment en Python & Golang pour m'aider dans ces objectifs. Et quelques compétences supplémentaire en React et Javascript.",
-        "subtitle": "Quelques missions notablent...",
+        "description": "Depuis le début de mon aventure DevOps en 2018, j'ai travaillé en remote pour des ESN et collaboré avec des personnes talentueuses pour concevoir des infrastructures à la fois pour les clients et le business.\n\nJ'ai aidé les entreprises à améliorer leurs infrastructures via l'Infrastructure As Code (IaC) en utilisant Terraform et Ansible, et des pipelines CI/CDs via Github ou GitLab pour orchestrer l'ensemble. L'idée principale est de permettre aux clients de consommer l'infrastructure comme un service.\n\nJ'ai aussi quelques compétences en développement notamment en Python & Golang pour m'aider dans ces objectifs. Et quelques compétences supplémentaires en React et Javascript.",
+        "subtitle": "Quelques missions notables...",
         "readmore": "Voir plus"
     }
 }
