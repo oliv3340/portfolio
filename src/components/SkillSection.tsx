@@ -9,7 +9,7 @@ export default function SkillSection() {
     const t = useTranslations("Skills");
     const missions = useTranslations("Missions");
     const currentLocale = useLocale()
-    const items = ['bouygues', 'altrnativ', 'cdiscount', 'mirakl'] as const;
+    const items = ['mirakl', 'cdiscount', 'altrnativ', 'bouygues'] as const;
     const technoTools = [
         "BiLogoGoogleCloud",
         "SiAmazonaws",
