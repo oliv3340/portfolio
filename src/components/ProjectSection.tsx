@@ -29,8 +29,8 @@ export default function ProjectSection() {
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex flex-wrap justify-center gap-6 md:gap-8 my-12">
                                     {repos.map((repo, index) => (
-                                        <Link href={`${repo.html_url}`} className="hover:text-hover">
-                                            <div key={index} className="border-[1px] p-2 rounded w-[325px] h-[114px]">
+                                        <Link href={`${repo.html_url}`} className="hover:text-hover" key={index}>
+                                            <div className="border-[1px] p-2 rounded w-[325px] h-[114px]">
                                                 <div className="flex justify-between">
                                                     <div className="body uppercase tracking-wider">
                                                         {repo.name}
