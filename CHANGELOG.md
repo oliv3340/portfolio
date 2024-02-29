@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/oliv3340/portfolio/compare/v1.5.2...v1.6.0) (2024-02-29)
+
+
+### Features
+
+* add back button in mission page to go back to the main page ([da419f3](https://github.com/oliv3340/portfolio/commit/da419f347edf165911956cccccc141659c891cf8))
+
 ## [1.5.2](https://github.com/oliv3340/portfolio/compare/v1.5.1...v1.5.2) (2024-02-29)
 
 
