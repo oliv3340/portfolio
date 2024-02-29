@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.5.0](https://github.com/oliv3340/portfolio/compare/v1.4.0...v1.5.0) (2024-02-29)
+
+
+### Features
+
+* implement project section with GH api call to get my public repositories ([bcf0c66](https://github.com/oliv3340/portfolio/commit/bcf0c661c624c4a599fb642e4e2fb3186b4e6633))
+
+
+### Bug Fixes
+
+* missing key prop in loop ([f942570](https://github.com/oliv3340/portfolio/commit/f9425705f32fe6ce62cc2899d33001aba19bec18))
+
 ## [1.4.0](https://github.com/oliv3340/portfolio/compare/v1.3.0...v1.4.0) (2024-02-29)
 
 
