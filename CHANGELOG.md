@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.1](https://github.com/oliv3340/portfolio/compare/v1.6.0...v1.6.1) (2024-02-29)
+
+
+### Bug Fixes
+
+* mission order in skills section. Use descendent order ([be9be38](https://github.com/oliv3340/portfolio/commit/be9be386ce66e71366f48f279c0445e922719bd4))
+* render project order - ordering by last pushed project ([6f6bd88](https://github.com/oliv3340/portfolio/commit/6f6bd88f6f13f49e27ebfc6162ad203eb458f9f2))
+
 ## [1.6.0](https://github.com/oliv3340/portfolio/compare/v1.5.2...v1.6.0) (2024-02-29)
 
 
