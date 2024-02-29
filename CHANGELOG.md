@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/oliv3340/portfolio/compare/v1.3.0...v1.4.0) (2024-02-29)
+
+
+### Features
+
+* init project section ([b055eec](https://github.com/oliv3340/portfolio/commit/b055eec5910f0b0967033543ff4991027a91fe63))
+
 ## [1.3.0](https://github.com/oliv3340/portfolio/compare/v1.2.0...v1.3.0) (2024-02-29)
 
 
