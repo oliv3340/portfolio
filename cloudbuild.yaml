@@ -1,0 +1,28 @@
+steps:
+  # Build the container image
+  - id: dockerBuild
+    name: "gcr.io/cloud-builders/docker"
+    args: ["build", "-t", "gcr.io/$PROJECT_ID/oge-portfolio:$TAG_NAME", "."]
+  # Push the container image to Container Registry
+  - id: dockerPush
+    name: "gcr.io/cloud-builders/docker"
+    args: ["push", "gcr.io/$PROJECT_ID/oge-portfolio:$TAG_NAME"]
+  # Deploy container image to Cloud Run
+  - id: deploySite
+    name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
+    entrypoint: gcloud
+    args:
+      - "run"
+      - "deploy"
+      - "oge-portfolio"
+      - "--image"
+      - "gcr.io/$PROJECT_ID/oge-portfolio:$TAG_NAME"
+      - "--region"
+      - "europe-west1"
+      - "--allow-unauthenticated"
+      - "--memory"
+      - "256M"
+      - "--min-instances"
+      - "0"
+images:
+  - "gcr.io/$PROJECT_ID/oge-portfolio:$TAG_NAME"
