@@ -1,14 +1,19 @@
+"use client";
+
 import NavBar from "@/components/navigation/NavBar";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
 import HrSeparator from "@/components/HrSeparator";
 import DynamicIcon from "@/components/DynamicIcon";
-
+import { useRouter } from "next/navigation";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 export default function Page({ params }: any) {
     const { id } = params
     const t = useTranslations('Missions')
+    const router = useRouter()
+    const currentLocale = useLocale()
 
     const techTools = {
         "bouygues": ["SiTerraform", "SiAnsible", "SiPrometheus", "SiGrafana", "SiKubernetes", "SiCeph", "DiPostgresql", "SiGitlab", "SiJira", "SiMattermost"],
@@ -21,7 +26,7 @@ export default function Page({ params }: any) {
         <>
             <main className="min-w-screen min-h-screen bg-creme text-justify">
                 <NavBar />
-                <div className="md:min-w-screen py-12 md:py-20 px-4 font-body" id="about">
+                <div className="md:min-w-screen pt-12 md:py-20 px-4 font-body" id="about">
                     <div className="container mx-auto md:w-1200 border-4 border-[#4d4d4d] rounded">
                         <div className="flex flex-col justify-center items-center p-5">
                             <div className="max-w-1200">
@@ -69,8 +74,11 @@ export default function Page({ params }: any) {
                                 : <></>
                         ))}
                     </div>
-                </div >
-            </main >
+                    <div className="mx-2 md:mx-8 py-8">
+                        <FaArrowCircleLeft className="text-brown-light object-cover hover:text-brown-hover" size="50" onClick={() => router.push("/" + currentLocale + "/#skills")} />
+                    </div>
+                </div>
+            </main>
         </>
     )
 }
