@@ -21,7 +21,7 @@ export default function Page({ params }: any) {
         <>
             <main className="min-w-screen min-h-screen bg-creme text-justify">
                 <NavBar />
-                <div className="md:min-w-screen py-20 px-4 font-body" id="about">
+                <div className="md:min-w-screen py-12 md:py-20 px-4 font-body" id="about">
                     <div className="container mx-auto md:w-1200 border-4 border-[#4d4d4d] rounded">
                         <div className="flex flex-col justify-center items-center p-5">
                             <div className="max-w-1200">
