@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/oliv3340/portfolio/compare/v1.2.0...v1.3.0) (2024-02-29)
+
+
+### Features
+
+* add Dockerfile for packaging ([31ca87d](https://github.com/oliv3340/portfolio/commit/31ca87d555ee8d51cda404518faee55415162d86))
+
 ## [1.2.0](https://github.com/oliv3340/portfolio/compare/v1.1.0...v1.2.0) (2024-02-28)
 
 
