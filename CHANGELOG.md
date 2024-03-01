@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.7.0](https://github.com/oliv3340/portfolio/compare/v1.6.1...v1.7.0) (2024-03-01)
+
+
+### Features
+
+* add button to DL resume ([acdf078](https://github.com/oliv3340/portfolio/commit/acdf078154de4fae8945db8486c26ababdce0651))
+* style scrollbar to make more discreet ([cb2e7af](https://github.com/oliv3340/portfolio/commit/cb2e7afd653ccef29cfd9d8546d277a9ea07c06a))
+
+
+### Bug Fixes
+
+* typo in skills en subtitle ([c7e6223](https://github.com/oliv3340/portfolio/commit/c7e6223daa9b7b539f836c0cfe0c8edcea46a7f4))
+
 ## [1.6.1](https://github.com/oliv3340/portfolio/compare/v1.6.0...v1.6.1) (2024-02-29)
 
 
