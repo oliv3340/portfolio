@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
@@ -31,6 +33,26 @@ export default function SkillSection() {
         "SiTailwindcss"
     ]
 
+    const handleClick = async () => {
+        const response = await fetch('/api/file', {
+            method: 'get',
+            headers: new Headers({
+                'locale': currentLocale
+            })
+        })
+
+        if (response.status !== 200) {
+            console.error(response.status, response.statusText);
+        }
+
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'RESUME-GRACIANNETTE.pdf';
+        link.click();
+    };
+
     return (
         <>
             <div className="min-w-screen bg-oliv py-20 font-body" id="skills">
@@ -59,9 +81,15 @@ export default function SkillSection() {
                                 )
                             })}
                         </div>
+                        <button
+                            type="button"
+                            onClick={handleClick}
+                            className="bg-brown-light hover:bg-brown-hover p-4 mt-20 mb-10 rounded shadow-lg hover:shadow-2xl"
+                        >
+                            <div className="body text-lg uppercase tracking-wider">{t('resume')}</div>
+                        </button>
                     </div>
                 </div>
-
                 <HrSeparator />
                 <DynamicIcon components={technoTools} color="#3e413f" size="40" />
             </div >
