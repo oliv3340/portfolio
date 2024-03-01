@@ -2,7 +2,7 @@
     "Skills": {
         "title": "Skills and jobs",
         "description": "Since beginning my journey as a freelance DevOps in 2018, I’ve work remotly for agencies and collaborated with talented people to create complex infrastructures for both business and consumer use.\n\nI've help companies to improve their infrastructure using the Infrastructure As Code (IaC) model with Terraform and Ansible, and design CI/CDs pipeline on Github or GitLab to orchetrate everything. The main idea is to serve infrastructures and plateforms as a service.\n\nI also have some coding skills with Python & Golang to help me to reach my goal. And some skills for fun like React and Javascript.",
-        "subtitle": "Few noticeable missions...",
+        "subtitle": "Few notable missions...",
         "resume": "Get my resume"
     }
 }
