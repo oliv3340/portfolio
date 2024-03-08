@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.8.0](https://github.com/oliv3340/portfolio/compare/v1.7.1...v1.8.0) (2024-03-08)
+
+
+### Features
+
+* add limit size during project api call. I don't want more than 10 item. ([79890ba](https://github.com/oliv3340/portfolio/commit/79890bac640f044c4ece89003dd6205ee5798a45))
+
+
+### Bug Fixes
+
+* clean useless libs ([ee55fd5](https://github.com/oliv3340/portfolio/commit/ee55fd5af7eb1985059d93f6ad85abd82711d38e))
+
 ## [1.7.1](https://github.com/oliv3340/portfolio/compare/v1.7.0...v1.7.1) (2024-03-02)
 
 
