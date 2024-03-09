@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/oliv3340/portfolio/compare/v1.8.0...v1.9.0) (2024-03-09)
+
+
+### Features
+
+* improve project section render by adding text and line-clamp ([4ff996c](https://github.com/oliv3340/portfolio/commit/4ff996c73482f10a2d9001ac892e5d75901e9a24))
+
 ## [1.8.0](https://github.com/oliv3340/portfolio/compare/v1.7.1...v1.8.0) (2024-03-08)
 
 
