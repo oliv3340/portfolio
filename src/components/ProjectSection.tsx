@@ -24,6 +24,15 @@ export default function ProjectSection() {
                 <div className="container mx-auto md:w-1200 py-12">
                     <div className="flex flex-col justify-center items-center">
                         <div className="title mx-auto px-5 text-3xl md:text-4xl mb-8">{t("title")}</div>
+                        <div className="flex flex-wrap justify-center item-center">
+                            <div className="pb-12">{t('text')}</div>
+                            <Link href="https://github.com/oliv3340">
+                                <div className="flex flew-wrap justify-center item-center hover:text-hover font-medium">
+                                    <SiGithub size="20" className="ml-2 mr-1" /> Github
+                                </div>
+                            </Link>
+
+                        </div>
                         <div className="mx-auto max-w-[1200px]">
                             <div className="flex flex-col justify-center items-center">
                                 <div className="flex flex-wrap justify-center gap-6 md:gap-8 my-12">
@@ -31,14 +40,14 @@ export default function ProjectSection() {
                                         <Link href={`${repo.html_url}`} className="hover:text-hover" key={index}>
                                             <div className="border-[1px] p-2 rounded w-[325px] h-[114px]">
                                                 <div className="flex justify-between">
-                                                    <div className="body uppercase tracking-wider">
+                                                    <div className="body uppercase tracking-wider line-clamp-1">
                                                         {repo.name}
                                                     </div>
                                                     <div className="capitalize text-xs bg-[#dcd5d5] py-1 px-2 rounded-full">
                                                         {repo.visibility}
                                                     </div>
                                                 </div>
-                                                <div className="text-sm my-3">
+                                                <div className="text-sm my-3 line-clamp-1">
                                                     {repo.description}
                                                 </div>
                                                 <div className="flex justify-between align-middle">
