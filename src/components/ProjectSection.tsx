@@ -24,12 +24,11 @@ export default function ProjectSection() {
                 <div className="container mx-auto md:w-1200 py-12">
                     <div className="flex flex-col justify-center items-center">
                         <div className="title mx-auto px-5 text-3xl md:text-4xl mb-8">{t("title")}</div>
-                        <div className="flex flex-wrap justify-center item-center">
-                            <div className="pb-12">{t('text')}</div>
-                            <Link href="https://github.com/oliv3340">
-                                <div className="flex flew-wrap justify-center item-center hover:text-hover font-medium">
-                                    <SiGithub size="20" className="ml-2 mr-1" /> Github
-                                </div>
+                        <div className="flex flex-wrap justify-center item-center max-w-[90%] text-center">
+
+                            {t('text')}
+                            <Link className="flex flex-wrap hover:text-hover" href="https://github.com/oliv3340">
+                                <SiGithub size="20" className="ml-2 mr-1" /> Github
                             </Link>
 
                         </div>
