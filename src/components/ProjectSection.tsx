@@ -9,7 +9,7 @@ export default function ProjectSection() {
     const t = useTranslations("Projects")
     const [repos, setRepos] = useState<any[]>([]);
     useEffect(() => {
-        fetch('https://api.github.com/users/oliv3340/repos?sort=pushed,limit=10')
+        fetch('https://api.github.com/users/oliv3340/repos?sort=pushed&limit=10')
             .then((res) => {
                 return res.json();
             })
