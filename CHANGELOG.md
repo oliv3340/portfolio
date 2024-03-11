@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.1](https://github.com/oliv3340/portfolio/compare/v1.9.0...v1.9.1) (2024-03-11)
+
+
+### Bug Fixes
+
+* render text project section ([335570a](https://github.com/oliv3340/portfolio/commit/335570ae14a8e2dd2cc2a11b06f2d46adf9dae7f))
+
 ## [1.9.0](https://github.com/oliv3340/portfolio/compare/v1.8.0...v1.9.0) (2024-03-09)
 
 
