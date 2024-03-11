@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.2](https://github.com/oliv3340/portfolio/compare/v1.9.1...v1.9.2) (2024-03-11)
+
+
+### Bug Fixes
+
+* typo in GH api query ([c06ced5](https://github.com/oliv3340/portfolio/commit/c06ced5532cce2761ed0b4f6fc5a2656b4fcd784))
+
 ## [1.9.1](https://github.com/oliv3340/portfolio/compare/v1.9.0...v1.9.1) (2024-03-11)
 
 
