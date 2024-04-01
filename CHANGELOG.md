@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/oliv3340/portfolio/compare/v1.9.2...v1.10.0) (2024-04-01)
+
+
+### Features
+
+* add custom favicon ([c3ac29e](https://github.com/oliv3340/portfolio/commit/c3ac29e75e4556bfbd7b4db41e4a68fccd60263c))
+
 ## [1.9.2](https://github.com/oliv3340/portfolio/compare/v1.9.1...v1.9.2) (2024-03-11)
 
 
