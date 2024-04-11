@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.1](https://github.com/oliv3340/portfolio/compare/v1.10.0...v1.10.1) (2024-04-11)
+
+
+### Bug Fixes
+
+* typo in about section title ([cfae961](https://github.com/oliv3340/portfolio/commit/cfae96120b04dbe12c83bd73a98d0cd9c1f8dce8))
+
 ## [1.10.0](https://github.com/oliv3340/portfolio/compare/v1.9.2...v1.10.0) (2024-04-01)
 
 
