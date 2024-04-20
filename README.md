@@ -1,5 +1,8 @@
 # My Personal Porfolio
 
+![GitHub Release](https://img.shields.io/github/v/release/oliv3340/portfolio)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliv3340/portfolio/node-ci.yml)
+
 Personal website to track my `DevOps` journey. Here I'm gonna show my realized and current missions as a freelance and before, technologies that I've used and skills I have leaned. Plus few words about me :).
 
 ## Libs
