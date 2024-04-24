@@ -3,7 +3,10 @@
 ![GitHub Release](https://img.shields.io/github/v/release/oliv3340/portfolio)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliv3340/portfolio/node-ci.yml)
 
-Personal website to track my `DevOps` journey. Here I'm gonna show my realized and current missions as a freelance and before, technologies that I've used and skills I have leaned. Plus few words about me :).
+Personal website to track my `DevOps` journey.
+Here I'm gonna show my realized and current missions as a freelance and before,
+technologies that I've used and skills I have leaned.
+Plus few words about me :).
 
 ## Libs
 
@@ -18,4 +21,6 @@ Here few libs I've used to create this site.
 
 ## CI/CD
 
-All deliveries are create using `release-please` and deployed on a Cloud Run using a Cloud Build trigger base on tags. Each new release is automatically deployed.
+All deliveries are create using `release-please` and deployed
+on a Cloud Run using a Cloud Build trigger base on tags.
+Each new release is automatically deployed.
