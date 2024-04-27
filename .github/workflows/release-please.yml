@@ -10,6 +10,6 @@ permissions:
 
 jobs:
   release-please:
-      uses: oliv3340/reusable-workflows-node/.github/workflows/node-release.yml@v1.0.0
+      uses: oliv3340/reusable-workflows-node/.github/workflows/node-release.yml@v1.0.1
       secrets:
         release-secret: ${{secrets.RELEASE_PLEASE}}
