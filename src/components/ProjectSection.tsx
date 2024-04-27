@@ -27,7 +27,7 @@ export default function ProjectSection() {
                         <div className="flex flex-wrap justify-center item-center max-w-[90%] text-center">
 
                             {t('text')}
-                            <Link className="flex flex-wrap hover:text-hover" href="https://github.com/oliv3340">
+                            <Link className="flex flex-wrap hover:text-hover" href="https://github.com/oliv3340?tab=repositories">
                                 <SiGithub size="20" className="ml-2 mr-1" /> Github
                             </Link>
 
