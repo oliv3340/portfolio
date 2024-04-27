@@ -11,7 +11,6 @@ const MENU_ITEMS = [
   { text: "LinkedIn", href: "https://www.linkedin.com/in/olivier-graciannette-3358b89b/", icon: <GrLinkedin /> },
   { text: "Github", href: "https://github.com/oliv3340", icon: <FaGithub /> },
   { text: "Email", href: "mailto:olivier.graciannette@gmail.com", icon: <MdAlternateEmail /> },
-  { text: "Twitter", href: "https://twitter.com/Oliv3340", icon: <GrTwitter /> },
 ]
 
 export default function Footer() {
