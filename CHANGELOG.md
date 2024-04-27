@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.4](https://github.com/oliv3340/portfolio/compare/v1.10.3...v1.10.4) (2024-04-27)
+
+
+### Bug Fixes
+
+* GH link to go on repo page directly ([45d742b](https://github.com/oliv3340/portfolio/commit/45d742b8770e15df7fa6aa0ec962ac0a178589fc))
+* remove twitter on footer ([646296c](https://github.com/oliv3340/portfolio/commit/646296c01803a3275e2166995366cd6a35fcef82))
+
 ## [1.10.3](https://github.com/oliv3340/portfolio/compare/v1.10.2...v1.10.3) (2024-04-27)
 
 
