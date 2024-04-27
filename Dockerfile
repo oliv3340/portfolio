@@ -3,7 +3,7 @@ FROM node:20.12-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY package.json yarn.lock ./
-RUN yarn install --frozen-lockfile
+RUN yarn install
 RUN yarn add sharp --ignore-engines
 
 # Rebuild the source code only when needed
