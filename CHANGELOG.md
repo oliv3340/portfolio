@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.3](https://github.com/oliv3340/portfolio/compare/v1.10.2...v1.10.3) (2024-04-27)
+
+
+### Bug Fixes
+
+* yarn lock file ([4165deb](https://github.com/oliv3340/portfolio/commit/4165deb3c3099fe02bd9f43f72788ad2c2712e61))
+
 ## [1.10.2](https://github.com/oliv3340/portfolio/compare/v1.10.1...v1.10.2) (2024-04-26)
 
 
