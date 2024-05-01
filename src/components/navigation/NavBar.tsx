@@ -2,7 +2,6 @@
 
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
-import { useTranslations } from 'next-intl';
 
 import SideBar from "./SideBar";
 import NavItem from "./NavItem";
