@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.5](https://github.com/oliv3340/portfolio/compare/v1.10.4...v1.10.5) (2024-05-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-icons to v5.2.0 ([bbb0683](https://github.com/oliv3340/portfolio/commit/bbb06832010008b74d782efb7171dbc72628057f))
+* remove fix remove useless imported lib in NavBar component ([7f593fa](https://github.com/oliv3340/portfolio/commit/7f593fa420c22022c9cd1c7d4ce39246eddc7e2b))
+
 ## [1.10.4](https://github.com/oliv3340/portfolio/compare/v1.10.3...v1.10.4) (2024-04-27)
 
 
