@@ -1,4 +1,4 @@
-# My Personal Porfolio
+# My Personal Portfolio
 
 ![GitHub Release](https://img.shields.io/github/v/release/oliv3340/portfolio)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/oliv3340/portfolio/node-ci.yml)
