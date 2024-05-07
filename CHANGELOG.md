@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.6](https://github.com/oliv3340/portfolio/compare/v1.10.5...v1.10.6) (2024-05-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-intl to v3.12.2 ([a6054d8](https://github.com/oliv3340/portfolio/commit/a6054d8eaabf97bf005f6a33838fefb61597a1df))
+
 ## [1.10.5](https://github.com/oliv3340/portfolio/compare/v1.10.4...v1.10.5) (2024-05-01)
 
 
