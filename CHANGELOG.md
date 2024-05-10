@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.7](https://github.com/oliv3340/portfolio/compare/v1.10.6...v1.10.7) (2024-05-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next-intl to v3.13.0 ([c2b0a2a](https://github.com/oliv3340/portfolio/commit/c2b0a2a0d7817fc48e29c4827b3331e03706f6a3))
+* **deps:** update dependency react-icons to v5.2.1 ([bee6552](https://github.com/oliv3340/portfolio/commit/bee655221e94e1f662193c3591e4488c4ebe58e6))
+
 ## [1.10.6](https://github.com/oliv3340/portfolio/compare/v1.10.5...v1.10.6) (2024-05-06)
 
 
